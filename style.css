@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+font-family: 'Saira', sans-serif;
+font-family: 'Smooch Sans', sans-serif;
+
+font-family: 'Poppins', sans-serif;
+}
+html,body{
+/* width: 100%;
+height: 100%; */
+background: #000;
+}
+
+.main{
+    height: 710px;
+    width: 100%;
+    background-image: url("assets/IN-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    position: relative;
+  
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgb(59, 55, 55);
+}
+.main .box{
+    height: 710px;
+    top: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    position: absolute;
+}
+
+.main .nav{
+     max-width:80vw;
+    /* width: 100; */
+    display: flex;padding-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    z-index: 99;
+    gap: 20px;
+    
+}
+
+.nav img{
+    height: 2.8vmax;
+    width: 100%;
+    /* color: red; */
+    position: relative;
+    z-index: 10;
+}
+.sidenav{
+    display: flex;
+    gap: 30px;
+}
+.sidenav button{
+    height: 4.6vh;
+    width: 7vw;
+    border-radius: 5px;
+    
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-weight: 500;
+     /* font-size: 1vw; */
+    position: relative;
+    z-index: 10;
+}
+.sidenav :nth-child(2){
+    background: red;
+    border: none;
+    width: 6vw;
+}
+.containt{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    font-size: 1.6vw;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    gap: 20px;
+     font-weight: 500;
+}
+.containt .fist-line{
+    font-weight: 900;
+    font-size: 48px;
+}
+.containt   :nth-child(2) ,.containt   :nth-child(3){
+    /* font-weight: 900; */
+    font-size: 20px;
+}
+
+.emalis{
+    display: flex;
+    gap: 20px;
+}
+.emalis button ,  input{
+    height: 7vh;
+    font-size: 4vh;
+width: 25vw;
+color: white;
+border-radius: 5px;
+font-weight: 600;
+border: none;padding: 10px;
+overflow: hidden;
+background: red;
+}
+.emalis :nth-child(1){
+    background: rgba(0, 0, 0, 0.493);
+    border:  1px solid white;
+    font-size: 1vw;
+    color: white;
+}
+.emalis button{
+    width: 13vw;
+    font-size: 1.3vw;
+}
+.section1{
+    min-width: 70vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: auto;
+     
+    border-bottom: 10px solid rgb(59, 55, 55);
+    justify-content: center;
+    
+}
+.section1> div h1{
+    font-size: 7vh;
+}
+.section1> .lefttext  {
+    padding:50px 70px;
+}
+.section1> div span{
+    font-size: 2.9vh;
+    margin: auto;
+}
+.secimg{
+    position: relative;
+    padding: 33px 44px;
+}
+.secimg img{
+    z-index: 99;
+    width: 555px;
+    position: relative;
+}
+.secimg video {
+    position: absolute;
+    top: 101px;
+ 
+    right: 17vh;
+    width: 31vw;
+}
+.lastpage{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 34px;
+    /* margin-bottom: 90vh; */
+    
+    border-bottom: 10px solid rgb(59, 55, 55);   
+}
+.lastpage h1{
+    font-size: 3.3vw;
+    margin-bottom: 3vh;
+}
+.lastpage h3{   
+    font-size: 1.4vw;
+    font-weight: 300;
+    margin: 3.7vh;
+}
+.lastpage .lstbox{
+    transition:   0.5s ease-out;
+    width: 80%;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px;
+    margin: 0.4vw auto;
+    cursor: pointer;
+    background-color: #2d2d2d;
+    font-size: 24px;
+
+}
+.lastpage :hover{
+    background: #4c4949;
+}
+.lastpage svg{
+    filter: invert(1);
+}
+
+.fotter{
+    width: 80vh;
+    margin: 9vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 100%; 
+    padding: 0 76px;
+    gap: 40px;
+    padding: 0 24vh;
+    font-weight: 100;
+    
+}
+.fboxx{
+    
+    display: flex;
+    flex-direction: column;
+}
+.fboxx h4{
+    margin: 3vh 0;
+}
+a,.fboxx h1{
+    width: 25vh;
+    margin: 0.5vw 0;
+    color: white;
+    font-weight: 100;  
+}
+.fboxx button{
+    height: 4.6vh;
+    width: 7vw;
+    border-radius: 5px;
+    margin: 3vh 0;
+    border: 1px solid white;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    background: #0000009f;
+    font-weight: 500;
+    
+}
+@media screen and (max-width: 1300px) {
+
+    nav{
+        max-width: 90vw;
+    }
+    .containt{
+        
+        font-size: 1.6vh;
+    text-align: center;
+    }
+    .containt  .fist-line{
+        font-size: 32px;
+    }
+    .sidenav button{
+        width: 9vh;
+        height: 4vh;
+    }
+    .sidenav :nth-child(2){
+        background: red;
+        border: none;
+        width: 7vh;
+    }
+    .emalis{
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    .emalis button ,  input{
+        flex-wrap: wrap;
+        height: 4.9vh;
+        font-size: 90vh;
+        
+    width:24vh;
+  
+    font-weight: 600;
+    
+    }
+    
+    .emalis button{
+        width: 14vh;
+        font-size: 1.5vh;
+    }
+    
+    .section1{
+       
+        flex-direction: column;
+        flex-wrap: wrap;
+         
+    }
+    .section1> div h1{
+        font-size: 3vh;
+    }
+    .section1> .lefttext  {
+        padding:40px 40px;
+        margin: 0 0 ;
+    }
+    .section1> div span{
+        font-size: 2vh;
+        
+    }
+    .secimg{
+        height: 70%;
+        padding: 33px 44px;
+    }
+    .secimg img{
+        width: 100%;
+        z-index: 99;
+        height: 100%;
+      
+    }
+    .secimg video {
+        position: absolute;
+        top: 87px;
+        right: 10vh;
+        width: 30vh;
+    }
+    .rev{
+        flex-direction: column-reverse;
+    }
+ 
+    .lastpage h1{
+        font-size: 3vh;
+        text-align: center;
+    
+    }
+    .lastpage h3{   
+        font-size: 1.8vh;
+        font-weight: 300;
+ 
+    }
+    .lastpage .lstbox{
+         
+        width: 100%;
+        height: 8.6vh;
+        margin: 4px 0;
+        font-size: 18px;
+    
+    }
+ 
+    .fotter{
+        padding: 0;
+        /* flex-wrap: wrap; */
+        margin-left: 0;
+        flex-direction: column;
+        
+    }
+    .fboxx{
+    flex-direction: reverse;
+     padding: 0;
+    }
+    .fboxx h4{
+        font-weight: 500;
+    }
+    a,.fboxx h1{
+        font-size: 13px;
+        padding: 0;
+        
+}
+.respn{
+    flex-direction: column;
+}
+.fboxx button{
+    height: 4vh;
+    width: 14vh;
+    border-radius: 5px;
+    margin: 3vh 0;
+    border: 1px solid white;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    background: #0000009f;
+    font-weight: 500;
+    
+}
+}
